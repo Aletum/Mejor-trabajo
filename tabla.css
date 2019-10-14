@@ -1,0 +1,54 @@
+/*Estilo de la CSS de la WEB*/
+
+body{
+background-color: grey;
+font-family: Arial;
+}
+#tabla{
+    margin: 150px auto;
+    width: 600px;
+}
+table{
+    background-color: white;
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+    border: 3px solid black;
+}
+
+th, td{
+    padding: 13px;
+    border: 1px solid black;
+}
+
+thead{
+background-color: #246355;
+color: white;
+border: 3px solid black;
+}
+
+tr:nth-child(event){
+    background-color: #ddd;
+}
+
+#boton{
+font: bold 25px Arial;
+text-decoration: none;
+color: white;
+background-color: #3428d3;
+border: 2px solid black;
+padding: 10px 20px 10px 20px;
+border-radius: 7px;
+}
+
+
+#boton:hover{
+    background:  #17116d;
+}
+
+center{
+    margin-top: -100px;
+}
+
+
+
